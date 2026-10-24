@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+.env*
+!.env.example
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Local caches & temporary files
+.aistudio/
+*.zip
+*.tar.gz
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

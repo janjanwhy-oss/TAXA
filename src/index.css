@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* ========================================================
+   TAXA ADVISORY — ORIGINAL GREEN THEME (RESTORED)
+   ======================================================== */
+
+:root,
+[data-theme="green"] {
+  /* Original Dark Backgrounds */
+  --taxa-dark-bg-1: #070b09;
+  --taxa-dark-bg-2: #131715;
+  --taxa-dark-card: #222624;
+  --taxa-dark-card-hover: #282d2b;
+  --taxa-dark-border: rgba(180, 255, 210, 0.12);
+
+  /* Original Green Color Palette */
+  --taxa-primary: #15803d;
+  --taxa-accent: #8ef78b;
+  --taxa-accent-hover: #7ee77b;
+  --taxa-accent-text-dark: #07150a;
+
+  /* Original Emerald-to-Lime Main Gradient & Glows */
+  --taxa-gradient-main: linear-gradient(110deg, #7eec94 0%, #a5f49f 52%, #d1feab 100%);
+  --taxa-gradient-main-hover: linear-gradient(110deg, #6deb8a 0%, #95f489 52%, #bef46a 100%);
+  --taxa-glow: rgba(142, 247, 139, 0.38);
+  --taxa-glow-soft: rgba(142, 247, 139, 0.18);
+  --taxa-accent-glow: rgba(142, 247, 139, 0.38);
+  --taxa-card-stop1: #7eec94;
+  --taxa-card-stop2: #a5f49f;
+  --taxa-card-stop3: #d1feab;
+
+  /* Original Decorative Wave Stems & Gradients */
+  --taxa-wave-stop1: #6ee787;
+  --taxa-wave-stop2: #58c470;
+  --taxa-wave-stop3: #469e59;
+
+  /* Original Glassmorphic Navigation */
+  --taxa-nav-glass: linear-gradient(90deg, rgba(7, 18, 14, 0.62), rgba(18, 35, 28, 0.48), rgba(7, 18, 14, 0.62));
+  --taxa-nav-glass-scrolled: linear-gradient(90deg, rgba(7, 18, 14, 0.88), rgba(18, 35, 28, 0.80), rgba(7, 18, 14, 0.88));
+  --taxa-nav-border: rgba(180, 255, 210, 0.12);
+  --taxa-nav-dropdown: linear-gradient(135deg, rgba(8, 20, 16, 0.95), rgba(12, 28, 22, 0.95));
+}
+
+/* ========================================================
+   THEMED UTILITY CLASSES
+   ======================================================== */
+
+.taxa-bg-dark-1 {
+  background-color: var(--taxa-dark-bg-1);
+}
+
+.taxa-bg-dark-2 {
+  background-color: var(--taxa-dark-bg-2);
+}
+
+.taxa-btn-primary {
+  background: var(--taxa-gradient-main);
+  color: var(--taxa-accent-text-dark);
+  box-shadow: 0 10px 28px var(--taxa-glow-soft);
+  transition: all 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.taxa-btn-primary:hover {
+  background: var(--taxa-gradient-main-hover);
+  box-shadow: 0 14px 34px var(--taxa-glow);
+}
+
+.taxa-card-gradient {
+  background: var(--taxa-gradient-main);
+  color: var(--taxa-accent-text-dark);
+}
+
+.taxa-text-gradient {
+  background: var(--taxa-gradient-main);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.taxa-text-accent {
+  color: var(--taxa-accent);
+}
+
+.taxa-bg-accent {
+  background-color: var(--taxa-accent);
+}
+
+/* ========================================================
+   MARQUEE KEYFRAMES
+   ======================================================== */
+
+@keyframes marqueeUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes marqueeDown {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-marquee-up {
+  animation: marqueeUp 28s linear infinite;
+}
+
+.animate-marquee-down {
+  animation: marqueeDown 32s linear infinite;
+}
+
+.pause-on-hover:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee-up,
+  .animate-marquee-down {
+    animation: none;
+  }
+}
