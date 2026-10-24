@@ -25,7 +25,7 @@ const FEATURE_CARDS: FeatureCardItem[] = [
     description:
       'Practical UAE tax, accounting, and compliance guidance informed by your business needs.',
     hasBackgroundImage: true,
-    backgroundImage: '/assets/our_features_card_1.jpg',
+    backgroundImage: '/assets/our_features_card_1.webp',
     backgroundAlt: 'Two financial advisors discussing documents and tablet in office',
     icon: (
       <svg
@@ -247,8 +247,10 @@ export const OurFeaturesSection: React.FC<OurFeaturesSectionProps> = ({
               className="lg:col-span-6 xl:col-span-6 relative rounded-[24px] sm:rounded-[26px] overflow-hidden min-h-[380px] sm:min-h-[480px] lg:min-h-[590px] bg-[var(--taxa-dark-card)] shadow-[0_16px_40px_rgba(0,0,0,0.35)]"
             >
               <img
-                src="/assets/aistudio/Advisor_reviewing_financial_docu__20261024125642_f5298f77.jpg"
+                src="/assets/aistudio/Advisor_reviewing_financial_docu_opt.webp"
                 alt="Confident financial advisor seated at a desk in a modern bright office working with a tablet and financial documents"
+                width={800}
+                height={800}
                 loading="lazy"
                 decoding="async"
                 className="w-full h-full object-cover object-center"

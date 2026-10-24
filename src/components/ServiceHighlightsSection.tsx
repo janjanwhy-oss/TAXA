@@ -13,6 +13,7 @@ interface ServiceCardItem {
   title: string;
   description: string;
   image: string;
+  imageSrcSet?: string;
 }
 
 const SERVICE_CARDS: ServiceCardItem[] = [
@@ -20,31 +21,36 @@ const SERVICE_CARDS: ServiceCardItem[] = [
     id: 'corporate-tax',
     title: 'Corporate Tax Advisory',
     description: 'Strategic guidance for UAE corporate tax planning, structuring, and compliance.',
-    image: '/assets/aistudio/image_6b00096f.png',
+    image: '/assets/aistudio/image_6b00096f.webp',
+    imageSrcSet: '/assets/aistudio/image_6b00096f_400.webp 400w, /assets/aistudio/image_6b00096f.webp 800w',
   },
   {
     id: 'vat-registration',
     title: 'VAT Registration & Filing',
     description: 'End-to-end VAT support including registration, returns, and compliance checks.',
-    image: '/assets/aistudio/image_921e64e0.png',
+    image: '/assets/aistudio/image_921e64e0.webp',
+    imageSrcSet: '/assets/aistudio/image_921e64e0_400.webp 400w, /assets/aistudio/image_921e64e0.webp 800w',
   },
   {
     id: 'bookkeeping',
     title: 'Bookkeeping & Reporting',
     description: 'Accurate financial records, monthly reporting, and clean bookkeeping systems.',
-    image: '/assets/aistudio/image_f65185aa.png',
+    image: '/assets/aistudio/image_f65185aa.webp',
+    imageSrcSet: '/assets/aistudio/image_f65185aa_400.webp 400w, /assets/aistudio/image_f65185aa.webp 800w',
   },
   {
     id: 'audit-compliance',
     title: 'Audit & Compliance Support',
     description: 'Stay prepared with organized documentation and advisory for regulatory requirements.',
-    image: '/assets/aistudio/image_fdca7190.png',
+    image: '/assets/aistudio/image_fdca7190.webp',
+    imageSrcSet: '/assets/aistudio/image_fdca7190_400.webp 400w, /assets/aistudio/image_fdca7190.webp 800w',
   },
   {
     id: 'business-growth',
     title: 'Business Growth Advisory',
     description: 'Financial insight and practical advisory to help businesses scale with confidence.',
-    image: '/assets/aistudio/image_1509aeb9.png',
+    image: '/assets/aistudio/image_1509aeb9.webp',
+    imageSrcSet: '/assets/aistudio/image_1509aeb9_400.webp 400w, /assets/aistudio/image_1509aeb9.webp 800w',
   },
 ];
 
@@ -161,7 +167,11 @@ export const ServiceHighlightsSection: React.FC<ServiceHighlightsSectionProps> =
                   >
                     <img
                       src={card.image}
+                      srcSet={card.imageSrcSet}
+                      sizes="(max-width: 640px) 265px, (max-width: 1024px) 290px, 340px"
                       alt={card.title}
+                      width={397}
+                      height={443}
                       loading="lazy"
                       decoding="async"
                       referrerPolicy="no-referrer"

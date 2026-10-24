@@ -66,6 +66,8 @@ export const PrecisionAccordion: React.FC<PrecisionAccordionProps> = ({
                       <img
                         src={item.image}
                         alt={item.title}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                       />
                     </div>
@@ -166,6 +168,8 @@ export const PrecisionAccordion: React.FC<PrecisionAccordionProps> = ({
                       <img
                         src={item.image}
                         alt={item.title}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover"
                       />
                     </div>

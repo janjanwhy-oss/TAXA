@@ -22,7 +22,7 @@ const PROCESS_STEPS: ProcessStep[] = [
     title: 'Initial Consultation',
     description:
       'We begin by understanding your business, financial needs, and regulatory priorities.',
-    image: '/assets/guidance_panel_1.jpg',
+    image: '/assets/guidance_panel_1.webp',
     icon: (
       <svg
         className="w-9 h-9"
@@ -45,7 +45,7 @@ const PROCESS_STEPS: ProcessStep[] = [
     title: 'Documentation',
     description:
       'We review the relevant records, business information, and supporting documents.',
-    image: '/assets/guidance_panel_2.jpg',
+    image: '/assets/guidance_panel_2.webp',
     icon: (
       <svg
         className="w-9 h-9"
@@ -70,7 +70,7 @@ const PROCESS_STEPS: ProcessStep[] = [
     title: 'Verification',
     description:
       'We assess information, confirm requirements, and identify the appropriate next steps.',
-    image: '/assets/guidance_panel_3.jpg',
+    image: '/assets/guidance_panel_3.webp',
     icon: (
       <svg
         className="w-9 h-9"
@@ -92,7 +92,7 @@ const PROCESS_STEPS: ProcessStep[] = [
     title: 'Implementation',
     description:
       'We help put the agreed financial, tax, or advisory approach into practice.',
-    image: '/assets/guidance_panel_4.jpg',
+    image: '/assets/guidance_panel_4.webp',
     icon: (
       <svg
         className="w-9 h-9"
@@ -227,6 +227,8 @@ export const WorkProcessSection: React.FC<WorkProcessSectionProps> = ({
                   <img
                     src={step.image}
                     alt={step.title}
+                    width={603}
+                    height={338}
                     loading="lazy"
                     decoding="async"
                     className="absolute inset-0 w-full h-full object-cover object-center scale-100 group-hover:scale-108 transition-all duration-500 ease-out opacity-0 group-hover:opacity-100 group-focus-within:opacity-100"

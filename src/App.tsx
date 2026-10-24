@@ -89,6 +89,10 @@ export default function App() {
           <img
             src="/assets/aistudio/texa_hero_image_cf043faf.webp"
             alt="Taxa Advisory Financial & Tax Consultant"
+            width={1376}
+            height={768}
+            fetchPriority="high"
+            decoding="async"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
           />

@@ -88,6 +88,9 @@ export const ServiceDetailContent: React.FC<ServiceDetailContentProps> = ({
               <img
                 src={serviceConfig.primaryImage.url}
                 alt={serviceConfig.primaryImage.alt}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
                 className="w-full h-full object-cover object-center"
               />
             </div>
@@ -123,6 +126,8 @@ export const ServiceDetailContent: React.FC<ServiceDetailContentProps> = ({
                   <img
                     src={img.url}
                     alt={img.alt}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                   />
                 </div>
@@ -171,6 +176,8 @@ export const ServiceDetailContent: React.FC<ServiceDetailContentProps> = ({
                 <img
                   src={serviceConfig.mediaCard.imageUrl}
                   alt={serviceConfig.mediaCard.imageAlt}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover object-center opacity-85 group-hover:scale-105 transition-transform duration-700"
                 />
                 {/* Subtle dark gradient overlay */}

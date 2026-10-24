@@ -128,11 +128,13 @@ export const FooterSection: React.FC<FooterSectionProps> = ({
                 aria-label="Taxa Homepage"
               >
                 <img
-                  src="/assets/taxa_logo.png"
+                  src="/assets/taxa_logo.webp"
                   alt="Taxa"
                   className="w-[120px] sm:w-[130px] md:w-[138px] h-auto object-contain select-none"
                   width={138}
                   height={36}
+                  loading="lazy"
+                  decoding="async"
                 />
               </a>
 

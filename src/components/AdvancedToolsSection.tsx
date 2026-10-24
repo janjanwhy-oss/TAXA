@@ -32,7 +32,7 @@ const TOOL_TABS: ToolTabItem[] = [
       'Clear guidance on UAE tax obligations',
       'Structured documentation and compliance reviews',
     ],
-    image: '/assets/aistudio/Advisor_consulting_client_in_office_20261024125002_66dd2cc8.webp',
+    image: '/assets/aistudio/Advisor_consulting_client_in_office_opt.webp',
     imageAlt: 'Senior tax advisor consulting client on UAE corporate tax strategy in modern Dubai office',
     icon: (
       <svg
@@ -63,7 +63,7 @@ const TOOL_TABS: ToolTabItem[] = [
       'Monthly reporting and account reconciliation',
       'Better visibility into business performance',
     ],
-    image: '/assets/aistudio/Professionals_reviewing_financia__20261024125000_e441170e.webp',
+    image: '/assets/aistudio/Professionals_reviewing_financia_opt.webp',
     imageAlt: 'Financial professionals reviewing accounting systems and digital reports on laptop in UAE office',
     icon: (
       <svg
@@ -94,7 +94,7 @@ const TOOL_TABS: ToolTabItem[] = [
       'Compliance reviews and documentation',
       'Improved readiness for regulatory requirements',
     ],
-    image: '/assets/aistudio/image_6b00096f.png',
+    image: '/assets/aistudio/image_6b00096f.webp',
     imageAlt: 'Corporate compliance team reviewing regulatory tax documentation and financial records in Dubai office',
     icon: (
       <svg
@@ -124,7 +124,7 @@ const TOOL_TABS: ToolTabItem[] = [
       'Cash flow and budgeting guidance',
       'Planning support for business expansion',
     ],
-    image: '/assets/aistudio/Professionals_planning_business___20261024125004_ceabfa66.webp',
+    image: '/assets/aistudio/Professionals_planning_business_opt.webp',
     imageAlt: 'Executive strategy team planning business growth and financial projections overlooking Dubai skyline',
     icon: (
       <svg
@@ -154,7 +154,7 @@ const TOOL_TABS: ToolTabItem[] = [
       'Business decision-making support',
       'Tailored financial improvement strategies',
     ],
-    image: '/assets/aistudio/Advisor_meeting_business_client_20261024125008_0cb583f3.webp',
+    image: '/assets/aistudio/Advisor_meeting_business_client_opt.webp',
     imageAlt: 'Senior financial advisor consulting business clients in executive UAE conference room',
     icon: (
       <svg
@@ -300,7 +300,9 @@ export const AdvancedToolsSection: React.FC<AdvancedToolsSectionProps> = ({
                     key={tab.id}
                     src={tab.image}
                     alt={tab.imageAlt}
-                    loading="lazy"
+                    width={800}
+                    height={800}
+                    loading={isSelected ? 'eager' : 'lazy'}
                     decoding="async"
                     style={{
                       transition:

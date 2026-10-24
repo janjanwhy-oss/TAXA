@@ -106,7 +106,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     name: 'Corporate Tax',
     heroTitle: 'Corporate Tax',
     primaryImage: {
-      url: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1600&q=80',
+      url: '/assets/services/tax_consultant_portrait_1200.webp',
       alt: 'Corporate Tax Advisory Consultation in Dubai',
     },
     introHeading: 'Corporate Tax Advisory for UAE Businesses',
@@ -121,11 +121,11 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     supportingImages: [
       {
-        url: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/business_meeting_discussion_800.webp',
         alt: 'Tax consultant discussing reporting requirements',
       },
       {
-        url: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/finance_team_collaboration_800.webp',
         alt: 'Finance team reviewing corporate tax documentation',
       },
     ],
@@ -146,7 +146,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     mediaCard: {
       imageUrl:
-        'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80',
+        '/assets/services/executive_briefing_session_1200.webp',
       imageAlt: 'UAE Corporate Tax Advisory Briefing Session',
       modalBadge: 'Taxa Executive Briefing',
       modalTitle: 'UAE Corporate Tax 9% Compliance Guide',
@@ -168,7 +168,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     name: 'VAT',
     heroTitle: 'VAT Services',
     primaryImage: {
-      url: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1600&q=80',
+      url: '/assets/services/vat_calculator_review_1200.webp',
       alt: 'Value Added Tax Advisory and Return Verification in Dubai',
     },
     introHeading: 'Value Added Tax (VAT) Advisory & Filing in the UAE',
@@ -183,11 +183,11 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     supportingImages: [
       {
-        url: 'https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/auditing_legal_review_1200.webp',
         alt: 'Accountant auditing tax invoices and VAT reconciliations',
       },
       {
-        url: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/corporate_financial_tower_800.webp',
         alt: 'Corporate financial office in Dubai Financial Centre',
       },
     ],
@@ -208,7 +208,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     mediaCard: {
       imageUrl:
-        'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80',
+        '/assets/services/accounting_analysis_charts_1200.webp',
       imageAlt: 'UAE VAT Compliance & Strategy Briefing',
       modalBadge: 'Taxa Executive Briefing',
       modalTitle: 'UAE VAT 5% Compliance & Filing Protocols',
@@ -230,7 +230,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     name: 'Excise Tax',
     heroTitle: 'Excise Tax',
     primaryImage: {
-      url: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=80',
+      url: '/assets/services/warehouse_logistics_excise_1200.webp',
       alt: 'Excise Tax Distribution and Bonded Warehouse Operations in Dubai',
     },
     introHeading: 'Excise Tax Compliance & Designated Zone Advisory',
@@ -245,11 +245,11 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     supportingImages: [
       {
-        url: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/inventory_pallet_distribution_800.webp',
         alt: 'Warehouse compliance inspection and excise stock management',
       },
       {
-        url: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/advisory_corporate_suit_800.webp',
         alt: 'Business executive evaluating excise tax inventory reports',
       },
     ],
@@ -270,7 +270,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     mediaCard: {
       imageUrl:
-        'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1600&q=80',
+        '/assets/services/customs_cargo_inspection_1200.webp',
       imageAlt: 'Excise Tax Supply Chain and Warehouse Briefing',
       modalBadge: 'Taxa Executive Briefing',
       modalTitle: 'UAE Excise Tax & Designated Zone Framework',
@@ -292,7 +292,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     name: 'Bookkeeping & Accounting',
     heroTitle: 'Bookkeeping & Accounting',
     primaryImage: {
-      url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80',
+      url: '/assets/services/bookkeeping_financial_graphs_1200.webp',
       alt: 'Financial Management, Ledger Systems and Bookkeeping in Dubai',
     },
     introHeading: 'IFRS-Compliant Accounting & Financial Management',
@@ -307,11 +307,11 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     supportingImages: [
       {
-        url: 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/tax_filing_forms_review_800.webp',
         alt: 'Financial controller analyzing corporate ledger accounts',
       },
       {
-        url: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/business_advisory_partnership_1200.webp',
         alt: 'Finance executive team reviewing quarterly profitability statements',
       },
     ],
@@ -332,7 +332,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     mediaCard: {
       imageUrl:
-        'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1600&q=80',
+        '/assets/services/business_meeting_discussion_800.webp',
       imageAlt: 'Corporate Financial Accounting Briefing',
       modalBadge: 'Taxa Executive Briefing',
       modalTitle: 'IFRS Accounting & Financial Governance for UAE Firms',
@@ -354,7 +354,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     name: 'Auditing Services',
     heroTitle: 'Auditing Services',
     primaryImage: {
-      url: 'https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1600&q=80',
+      url: '/assets/services/auditing_legal_review_1200.webp',
       alt: 'Auditing Services and Statutory Review for UAE Companies',
     },
     introHeading: 'Statutory Audits & Independent Assurance in Dubai',
@@ -369,11 +369,11 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     supportingImages: [
       {
-        url: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/advisory_corporate_suit_800.webp',
         alt: 'Senior auditor verifying ledger balances and internal controls',
       },
       {
-        url: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/corporate_financial_tower_800.webp',
         alt: 'Dubai commercial towers and financial institutions',
       },
     ],
@@ -394,7 +394,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     mediaCard: {
       imageUrl:
-        'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80',
+        '/assets/services/finance_team_collaboration_800.webp',
       imageAlt: 'Corporate Statutory Audit and Assurance Presentation',
       modalBadge: 'Taxa Executive Briefing',
       modalTitle: 'UAE Statutory Audit Standards & Governance Protocols',
@@ -416,7 +416,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     name: 'Business Advisory',
     heroTitle: 'Business Advisory',
     primaryImage: {
-      url: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80',
+      url: '/assets/services/executive_briefing_session_1200.webp',
       alt: 'Strategic Corporate Business Advisory in Dubai',
     },
     introHeading: 'Strategic Corporate Advisory & UAE Restructuring',
@@ -431,11 +431,11 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     supportingImages: [
       {
-        url: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/executive_advisor_briefing_800.webp',
         alt: 'Corporate consultant analyzing enterprise restructuring plan',
       },
       {
-        url: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80',
+        url: '/assets/services/business_meeting_discussion_800.webp',
         alt: 'Senior business advisors strategizing market expansion',
       },
     ],
@@ -456,7 +456,7 @@ export const SERVICE_DETAILS_MAP: Record<string, ServiceDetailConfig> = {
     ],
     mediaCard: {
       imageUrl:
-        'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1600&q=80',
+        '/assets/services/business_advisory_partnership_1200.webp',
       imageAlt: 'Executive Business Advisory & Market Entry Briefing',
       modalBadge: 'Taxa Executive Briefing',
       modalTitle: 'UAE Corporate Structuring & Free Zone Strategy',
@@ -483,7 +483,7 @@ export const TAILORED_SERVICES: ServiceItem[] = [
     category: 'Corporate Advisory',
     shortDesc: 'Suscipit auctor curabitur facilisi cubilia curae hac habitasse. Interdum tortor ligula congue sollicitudin erat viverra ac.',
     fullDesc: 'Comprehensive corporate tax structuring and forward-looking financial planning aligned with UAE Federal Tax Authority regulations and economic substance benchmarks.',
-    image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80',
+    image: '/assets/services/business_meeting_discussion_800.webp',
     features: ['Qualifying Free Zone Status', 'Corporate Restructuring', 'Cross-Border M&A Tax Due Diligence']
   },
   {
@@ -495,7 +495,7 @@ export const TAILORED_SERVICES: ServiceItem[] = [
     category: 'Digital Transformation',
     shortDesc: 'Suscipit auctor curabitur facilisi cubilia curae hac habitasse. Interdum tortor ligula congue sollicitudin erat viverra ac.',
     fullDesc: 'Modern cloud accounting integration, automated e-invoicing compliance, and digital ledger optimization designed for UAE enterprise scalability.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80',
+    image: '/assets/services/tax_consultant_portrait_1200.webp',
     features: ['Automated Tax Return Filing', 'Custom ERP Accounting Bridges', 'Real-Time Financial Dashboards']
   },
   {
@@ -507,7 +507,7 @@ export const TAILORED_SERVICES: ServiceItem[] = [
     category: 'Indirect Taxation',
     shortDesc: 'Suscipit auctor curabitur facilisi cubilia curae hac habitasse. Interdum tortor ligula congue sollicitudin erat viverra ac.',
     fullDesc: 'End-to-end VAT 5% advisory, voluntary disclosure management, and strategic cash flow engineering tailored to UAE mainland and free zone operations.',
-    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80',
+    image: '/assets/services/vat_calculator_review_1200.webp',
     features: ['FTA Audit Representation', 'Reconsideration & Appeal Filings', 'Import/Export VAT Recoupment']
   },
   {
@@ -519,7 +519,7 @@ export const TAILORED_SERVICES: ServiceItem[] = [
     category: 'Audit & Governance',
     shortDesc: 'Suscipit auctor curabitur facilisi cubilia curae hac habitasse. Interdum tortor ligula congue sollicitudin erat viverra ac.',
     fullDesc: 'Independent statutory auditing, internal control stress-testing, and rigorous regulatory compliance for commercial license renewals in Dubai.',
-    image: 'https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80',
+    image: '/assets/services/auditing_legal_review_1200.webp',
     features: ['Annual Statutory Audit Reports', 'AML & Anti-Fraud Audits', 'Board Governance Review']
   },
   {
@@ -531,7 +531,7 @@ export const TAILORED_SERVICES: ServiceItem[] = [
     category: 'Accounting Operations',
     shortDesc: 'Suscipit auctor curabitur facilisi cubilia curae hac habitasse. Interdum tortor ligula congue sollicitudin erat viverra ac.',
     fullDesc: 'Structured monthly bookkeeping, payroll WPS compliance, and IFRS-compliant trial balances that empower confident executive decision-making.',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
+    image: '/assets/services/corporate_financial_tower_800.webp',
     features: ['IFRS General Ledger Management', 'WPS Payroll Processing', 'Monthly Balance Sheet Closing']
   }
 ];
@@ -549,42 +549,42 @@ export const INSIGHT_CAROUSEL_ITEMS: InsightCarouselItem[] = [
     id: 'cashflow',
     title: 'Cashflow Optimization',
     description: 'Senectus netus suscipit auctor curabitur facilisi cubilia curae.',
-    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/services/executive_briefing_session_1200.webp',
     category: 'Financial Engineering'
   },
   {
     id: 'decision-streamlining',
     title: 'Decision Streamlining',
     description: 'Senectus netus suscipit auctor curabitur facilisi cubilia curae.',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/services/finance_team_collaboration_800.webp',
     category: 'Executive Advisory'
   },
   {
     id: 'boosted-efficiency',
     title: 'Boosted Efficiency',
     description: 'Senectus netus suscipit auctor curabitur facilisi cubilia curae.',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/services/executive_advisor_briefing_800.webp',
     category: 'Operational Scale'
   },
   {
     id: 'corporate-tax-health',
     title: 'Corporate Tax Health',
     description: 'Senectus netus suscipit auctor curabitur facilisi cubilia curae.',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/services/accounting_analysis_charts_1200.webp',
     category: 'Regulatory Assurance'
   },
   {
     id: 'cross-border-audit',
     title: 'Cross-Border Governance',
     description: 'Senectus netus suscipit auctor curabitur facilisi cubilia curae.',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/services/business_advisory_partnership_1200.webp',
     category: 'International Tax'
   },
   {
     id: 'digital-accounting',
     title: 'Digital Ledger Systems',
     description: 'Senectus netus suscipit auctor curabitur facilisi cubilia curae.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/services/bookkeeping_financial_graphs_1200.webp',
     category: 'ERP Automation'
   }
 ];

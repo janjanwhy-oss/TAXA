@@ -87,8 +87,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenConsultation }) 
                 {/* Avatar 1 */}
                 <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full border-[3px] border-white shadow-md overflow-hidden bg-neutral-200 transition-transform hover:scale-105 hover:z-30 duration-200">
                   <img
-                    src="/assets/avatar1.png?v=2"
+                    src="/assets/avatar1.webp"
                     alt="Corporate Tax Specialist"
+                    width={56}
+                    height={56}
+                    loading="eager"
+                    decoding="async"
                     className="w-full h-full object-cover object-center block"
                     referrerPolicy="no-referrer"
                   />
@@ -97,8 +101,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenConsultation }) 
                 {/* Avatar 2 */}
                 <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full border-[3px] border-white shadow-md overflow-hidden bg-neutral-200 transition-transform hover:scale-105 hover:z-30 duration-200">
                   <img
-                    src="/assets/avatar2.png?v=2"
+                    src="/assets/avatar2.webp"
                     alt="Senior Tax Consultant"
+                    width={56}
+                    height={56}
+                    loading="eager"
+                    decoding="async"
                     className="w-full h-full object-cover object-center block"
                     referrerPolicy="no-referrer"
                   />
@@ -107,8 +115,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenConsultation }) 
                 {/* Avatar 3 */}
                 <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full border-[3px] border-white shadow-md overflow-hidden bg-neutral-200 transition-transform hover:scale-105 hover:z-30 duration-200">
                   <img
-                    src="/assets/avatar3.png?v=2"
+                    src="/assets/avatar3.webp"
                     alt="Auditing and Advisory Partner"
+                    width={56}
+                    height={56}
+                    loading="eager"
+                    decoding="async"
                     className="w-full h-full object-cover object-center block"
                     referrerPolicy="no-referrer"
                   />

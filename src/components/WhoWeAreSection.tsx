@@ -58,8 +58,12 @@ export const WhoWeAreSection: React.FC<WhoWeAreSectionProps> = ({ onOpenConsulta
           >
             <div className="relative w-full overflow-hidden rounded-2xl sm:rounded-[26px] shadow-[0_20px_50px_rgba(12,18,14,0.08)] bg-neutral-200 aspect-[16/10]">
               <img
-                src="/assets/aistudio/image_9327471e.png"
+                src="/assets/aistudio/image_9327471e.webp"
+                srcSet="/assets/aistudio/image_9327471e_600.webp 600w, /assets/aistudio/image_9327471e.webp 1200w"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 58vw, 720px"
                 alt="Taxa Advisory tax consultant and client reviewing financial advisory documents in a modern Dubai office"
+                width={1376}
+                height={768}
                 loading="lazy"
                 decoding="async"
                 className="w-full h-full object-cover object-center"

@@ -172,11 +172,12 @@ export const Navbar: React.FC<NavbarProps> = ({
               aria-label="Taxa Homepage"
             >
               <img
-                src="/assets/taxa_logo.png"
+                src="/assets/taxa_logo.webp"
                 alt="Taxa"
                 className="w-[65px] sm:w-[68px] md:w-[72px] h-auto object-contain select-none block"
                 width={72}
                 height={19}
+                decoding="async"
               />
             </a>
           </div>

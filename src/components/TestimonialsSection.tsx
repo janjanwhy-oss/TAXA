@@ -23,7 +23,7 @@ const COLUMN_ONE_TESTIMONIALS: TestimonialItem[] = [
       'Taxa Advisory simplified our UAE corporate tax transition seamlessly. Their team understood our group structure and saved us countless hours.',
     author: 'Mario Pascal',
     role: 'Project Manager',
-    avatar: '/assets/avatar1.png',
+    avatar: '/assets/avatar1.webp',
   },
   {
     id: 'col1-2',
@@ -31,7 +31,7 @@ const COLUMN_ONE_TESTIMONIALS: TestimonialItem[] = [
       'Euismod quam justo lectus commodo augue arcu dignissim. Porttitor ullamcorper et magnis dis parturient montes.',
     author: 'Sarah Malik',
     role: 'Operations Manager & CEO',
-    avatar: '/assets/avatar2.png',
+    avatar: '/assets/avatar2.webp',
   },
   {
     id: 'col1-3',
@@ -39,7 +39,7 @@ const COLUMN_ONE_TESTIMONIALS: TestimonialItem[] = [
       'Luctus nibh finibus facilisis dapibus etiam interdum tortor. Tincidunt nam porta elementum a enim vivamus.',
     author: 'Nicole Saskia',
     role: 'Founder & Director',
-    avatar: '/assets/avatar3.png',
+    avatar: '/assets/avatar3.webp',
   },
 ];
 
@@ -50,7 +50,7 @@ const COLUMN_TWO_TESTIMONIALS: TestimonialItem[] = [
       'Imperdiet mollis nullam volutpat porttitor. Their monthly VAT filings and FTA compliance have given our leadership total confidence.',
     author: 'Edelgard Gisa',
     role: 'HR & Finance Director',
-    avatar: '/assets/avatar3.png',
+    avatar: '/assets/avatar3.webp',
   },
   {
     id: 'col2-2',
@@ -58,7 +58,7 @@ const COLUMN_TWO_TESTIMONIALS: TestimonialItem[] = [
       'Taciti sociosqu ad litora torquent per conubia nostra. Et magnis dis parturient montes nascetur ridiculus mus.',
     author: 'Tariq Al-Mansoor',
     role: 'Managing Partner',
-    avatar: '/assets/avatar1.png',
+    avatar: '/assets/avatar1.webp',
   },
   {
     id: 'col2-3',
@@ -66,7 +66,7 @@ const COLUMN_TWO_TESTIMONIALS: TestimonialItem[] = [
       'Viverra ac tincidunt nam porta elementum a enim. From day one, Taxa provided actionable financial guidance that helped us scale.',
     author: 'Elena Rostova',
     role: 'Chief Financial Officer',
-    avatar: '/assets/avatar2.png',
+    avatar: '/assets/avatar2.webp',
   },
 ];
 
@@ -381,6 +381,8 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
                           <img
                             src={item.avatar}
                             alt={item.author}
+                            width={32}
+                            height={32}
                             loading="lazy"
                             decoding="async"
                             className="w-8 h-8 rounded-full object-cover border border-white shadow-2xs shrink-0"
@@ -425,6 +427,8 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
                           <img
                             src={item.avatar}
                             alt={item.author}
+                            width={32}
+                            height={32}
                             loading="lazy"
                             decoding="async"
                             className="w-8 h-8 rounded-full object-cover border border-white shadow-2xs shrink-0"
@@ -549,8 +553,10 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
             >
               {/* Underlying photographic texture */}
               <img
-                src="/assets/consultant_right.jpg"
+                src="/assets/consultant_right.webp"
                 alt="Advisory group cooperation"
+                width={1000}
+                height={798}
                 loading="lazy"
                 decoding="async"
                 className="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-overlay pointer-events-none"
@@ -568,22 +574,28 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
               <div className="relative z-10 flex items-center justify-between pt-6">
                 <div className="flex items-center -space-x-2.5">
                   <img
-                    src="/assets/avatar1.png"
+                    src="/assets/avatar1.webp"
                     alt="Client member 1"
+                    width={40}
+                    height={40}
                     loading="lazy"
                     decoding="async"
                     className="w-10 h-10 rounded-full border-2 border-white object-cover shadow-sm"
                   />
                   <img
-                    src="/assets/avatar2.png"
+                    src="/assets/avatar2.webp"
                     alt="Client member 2"
+                    width={40}
+                    height={40}
                     loading="lazy"
                     decoding="async"
                     className="w-10 h-10 rounded-full border-2 border-white object-cover shadow-sm"
                   />
                   <img
-                    src="/assets/avatar3.png"
+                    src="/assets/avatar3.webp"
                     alt="Client member 3"
+                    width={40}
+                    height={40}
                     loading="lazy"
                     decoding="async"
                     className="w-10 h-10 rounded-full border-2 border-white object-cover shadow-sm"

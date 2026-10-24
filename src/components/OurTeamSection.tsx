@@ -19,25 +19,25 @@ const TEAM_MEMBERS: TeamMember[] = [
     id: 'omar-hassan',
     name: 'Omar Hassan',
     role: 'Senior Tax Consultant',
-    image: '/assets/aistudio/Professional_man_standing_crosse__20261024133253_2f469715.jpg',
+    image: '/assets/aistudio/team_daniel_opt.webp',
   },
   {
     id: 'tariq-al-mansoor',
     name: 'Tariq Al-Mansoor',
     role: 'Head of Accounting',
-    image: '/assets/aistudio/Man_standing_in_business_suit_20261024131047__1__4586d3a1.webp',
+    image: '/assets/aistudio/team_omar_opt.webp',
   },
   {
     id: 'sarah-malik',
     name: 'Sarah Malik',
     role: 'Business Advisory Consultant',
-    image: '/assets/aistudio/Woman_posing_for_business_portrait_20261024131005_598907b9.webp',
+    image: '/assets/aistudio/team_sarah_opt.webp',
   },
   {
     id: 'daniel-foster',
     name: 'Daniel Foster',
     role: 'Audit & Compliance Specialist',
-    image: '/assets/aistudio/make_it_middle_age_20261024131017_25e0a011.webp',
+    image: '/assets/aistudio/team_nadia_opt.webp',
   },
 ];
 
@@ -104,6 +104,8 @@ export const OurTeamSection: React.FC<OurTeamSectionProps> = ({ onOpenConsultati
                 <img
                   src={member.image}
                   alt={`${member.name} - ${member.role}`}
+                  width={600}
+                  height={675}
                   className="w-full h-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-105"
                   loading="lazy"
                   decoding="async"
